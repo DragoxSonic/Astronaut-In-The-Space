@@ -50,6 +50,7 @@ public class Collectable : MonoBehaviour
 
         switch (this.type)
         {
+            //prueba
             case CollectableType.money:
                 GameManager.sharedInstance.CollectObject(this);
                 GetComponent<AudioSource>().Play();
